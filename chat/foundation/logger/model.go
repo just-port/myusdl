@@ -7,10 +7,10 @@ import (
 	"log/slog"
 )
 
-// Level represents different logging levels.
+// Level represents different logger levels.
 type Level slog.Level
 
-// A set of possible logging levels.
+// A set of possible logger levels.
 const (
 	LevelDebug = Level(slog.LevelDebug)
 	LevelInfo  = Level(slog.LevelInfo)
